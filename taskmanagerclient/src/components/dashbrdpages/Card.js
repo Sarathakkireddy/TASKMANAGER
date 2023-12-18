@@ -65,7 +65,7 @@ function Card({ card, load, setload, navigate,toasterror,toastsuccess }) {
     try {
     const resp = await axios({
       method: "patch",
-      url: "http://localhost:4000/taskcard/update",
+      url: "https://task-manager-zzue.onrender.com/taskcard/update",
       headers: { Authorization: localStorage.token },
       data: {
         id: card._id,
@@ -113,7 +113,7 @@ function Card({ card, load, setload, navigate,toasterror,toastsuccess }) {
     try {
       const res = await axios({
         method: "delete",
-        url: `http://localhost:4000/taskcard/del${card._id}`,
+        url: `https://task-manager-zzue.onrender.com/taskcard/del${card._id}`,
         headers: { Authorization: localStorage.token },
       });
       if(res.status===200){
@@ -136,7 +136,7 @@ function Card({ card, load, setload, navigate,toasterror,toastsuccess }) {
     try {
       const resp = await axios({
         method: "patch",
-        url: "http://localhost:4000/taskcard/update",
+        url: "https://task-manager-zzue.onrender.com/taskcard/update",
         headers: { Authorization: localStorage.token },
         data: {
           id: card._id,

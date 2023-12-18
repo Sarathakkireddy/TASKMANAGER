@@ -51,7 +51,7 @@ function Signup({settype,toast}) {
 
     async function register(){
         try{
-        const res=await axios.post('http://localhost:4000/taskmanager/register',{
+        const res=await axios.post('https://task-manager-zzue.onrender.com/taskmanager/register',{
             name: nameref.current.value,
             email:emailref.current.value,
             contact:contref.current.value,

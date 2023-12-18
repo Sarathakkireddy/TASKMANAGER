@@ -35,7 +35,7 @@ function Tasks({navigate,toast}) {
         try{
           const res=await axios({
             method:"get",
-            url:`http://localhost:4000/taskcard/allcrds${localStorage.id}`,
+            url:`https://task-manager-zzue.onrender.com/taskcard/allcrds${localStorage.id}`,
             headers: { Authorization: localStorage.token },
           });
           if(res.status===200){
@@ -131,7 +131,7 @@ function Tasks({navigate,toast}) {
         if(file!==""){
           uploadFile();
         }
-        const resp =await axios({method: "post",url:"http://localhost:4000/taskcard/crtcard",
+        const resp =await axios({method: "post",url:"https://task-manager-zzue.onrender.com/taskcard/crtcard",
           data:{
           userid:localStorage.id,
           title: titleref.current.value,
