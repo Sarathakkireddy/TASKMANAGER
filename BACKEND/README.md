@@ -1,0 +1,4 @@
+Create a .env file and this content
+PORT = '4000'
+MONGO_URI = 'YOUR MONGODB ATLAS URI'
+JWT_SECRET = 'YOUR OWN SECRET WORD'
