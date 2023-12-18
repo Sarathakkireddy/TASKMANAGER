@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    height: fit-content;
+    /* background-color: #DCBFFF; */
+}
+.todo,.inprogress,.completed{
+    width: 33%;
+    margin: 5px 5px;
+    padding: 5px;
+    min-height: 80vh;
+    border: 8px double black;
+    border-radius: 20px;
+    background-color: #B6BBC4;
+    text-align: center;
+}
+.todohead,.inproghead,.completedhead{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.todohead{
+    background-color: rgb(153, 153, 153);
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.inproghead{
+    background-color: rgb(61, 221, 233);
+    color: rgb(2, 2, 148);  
+    border-radius: 20px;
+    padding: 5px
+}
+.completedhead{
+    background-color: rgb(51, 238, 51);
+    border-radius: 20px;
+    padding: 5px
+}
+.title,.desc,.fileupload{
+    margin: 5px;
+    font-size: large;
+}
+.modelcont{
+    text-align: center;
+}
+.addnewcardbtn{
+    text-align: center;
+    margin-left: 75%;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.logoutbtn{
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 5px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.createcardbtn{
+    text-align: center;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.btncont{
+    background-color: #B6BBC4;
+    border-radius: 15px;
+}

@@ -1,0 +1,21 @@
+.signupspan{
+    color: blue;
+    font-size:medium;
+}
+.loginemail,.loginpwd{
+    margin: 5px;
+    width: 60%;
+    height: 30px;
+}
+.loginpwd{
+    margin-bottom: 80px;
+}
+.loginbtn{
+    margin: 10px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    width: 25%;
+    height: 10%;
+}

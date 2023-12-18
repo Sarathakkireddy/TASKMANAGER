@@ -1,0 +1,13 @@
+.dash-cont{
+    display: flex;
+    min-height: 80vh;
+    padding: 20px;
+    justify-content: center;
+    background-color: #161A30;
+
+}
+.task-cont{
+    width: 90%;
+    min-height: 80%;
+    /* border: 2px solid black; */
+}
